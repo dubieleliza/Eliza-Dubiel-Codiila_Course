@@ -29,7 +29,10 @@ public class Grades {
             return 0;
         }
         int sum = 0;
-        for (int i = 0; i < size; i++) sum += grades[i];
+        for (int i = 0; i < size; i++) {
+            sum += grades[i];  // tak jak users[i].getAge(), tylko tu mamy zwykłą tablicę int
+        }
+
         return (double) sum / size;
     }
 }
