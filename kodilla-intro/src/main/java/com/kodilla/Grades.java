@@ -28,7 +28,7 @@ public class Grades {
             System.out.println("No grades in the table!");
             return 0;
         }
-        int sum = 0;
+        double sum = 0;
         for (int i = 0; i < size; i++) {
             sum += grades[i];  // tak jak users[i].getAge(), tylko tu mamy zwykłą tablicę int
         }
