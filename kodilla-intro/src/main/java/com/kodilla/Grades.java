@@ -36,3 +36,4 @@ public class Grades {
         return (double) sum / size;
     }
 }
+// modyfikacja pliku do commita
