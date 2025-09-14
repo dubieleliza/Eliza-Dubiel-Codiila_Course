@@ -10,3 +10,4 @@ public class RandomNumbersApp {
         System.out.println("Najmniejsza: " + rn.getMin());
     }
 }
+// Modyfikacja pliku dla commita

@@ -30,3 +30,4 @@ public class RandomNumbers {
         return sum;
     }
 }
+// Modyfikacja pliku do commita git status

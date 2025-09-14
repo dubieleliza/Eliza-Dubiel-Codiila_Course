@@ -11,7 +11,7 @@ public class UserApp {
         users[4] = new User("Aleksandra", 13);
         users[5]= new User("Julianna", 36);
 
-        int sum = 0;
+        double sum = 0;
         for (int i = 0; i < users.length; i++) {
             sum = sum + users[i].getAge();
         }
@@ -27,3 +27,4 @@ public class UserApp {
         }
     }
 }
+// Modyfikacja dla commita
