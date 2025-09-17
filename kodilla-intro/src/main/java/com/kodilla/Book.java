@@ -1,0 +1,18 @@
+package com.kodilla;
+
+public class Book {
+        private String author;
+        private String title;
+
+        private Book(String author, String title) {
+            this.author = author;
+            this.title = title;
+        }
+
+        public static Book of(String author, String title) {
+            return new Book(author, title);
+        }
+    public String toString() {
+        return author + " - \"" + title + "\"";
+    }
+    }
