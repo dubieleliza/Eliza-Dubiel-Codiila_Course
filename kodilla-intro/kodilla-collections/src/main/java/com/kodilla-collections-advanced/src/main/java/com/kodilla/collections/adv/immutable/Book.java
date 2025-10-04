@@ -1,20 +1,24 @@
-package com.kodilla.collections.adv.immutable;
+package com.kodilla.collections.adv.immutable.homework;
 
-public class Book {
-    protected String author;
-    protected String title;
+public final class Book {
+    private final String title;
+    private final int numberOfPages;
 
-    public Book(String author, String title) {
-        this.author = author;
+    public Book(String title, int numberOfPages) {
         this.title = title;
-    }
-
-    public String getAuthor() {
-        return author;
+        this.numberOfPages = numberOfPages;
     }
 
     public String getTitle() {
         return title;
     }
-}
 
+    public int getNumberOfPages() {
+        return numberOfPages;
+    }
+
+    @Override
+    public String toString() {
+        return title + " (" + numberOfPages + " pages)";
+    }
+}
