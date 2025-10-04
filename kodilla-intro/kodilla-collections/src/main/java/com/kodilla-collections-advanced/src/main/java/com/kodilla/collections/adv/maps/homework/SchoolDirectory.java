@@ -7,17 +7,17 @@ public class SchoolDirectory {
     public static void main(String[] args) {
         Map<Principal, School> schools = new HashMap<>();
 
-        Principal smith = new Principal("Jan", "Szuster");
-        Principal brown = new Principal("Anna", "Malicka");
-        Principal white = new Principal("Michal", "Biajko");
+        Principal Szuster = new Principal("Jan", "Szuster");
+        Principal Malicka = new Principal("Anna", "Malicka");
+        Principal Biajko = new Principal("Michal", "Biajko");
 
         School highSchool = new School("Publiczna Szkoła Podstawowa  nr.5", 30, 28, 32, 29);
         School primarySchool = new School("Zespół Szkól Technicznych nr.1 ", 25, 27, 26, 28, 24);
         School technicalSchool = new School("Regionalne Centrum Edukacji Zawodowej", 31, 30, 29);
 
-        schools.put(smith, highSchool);
-        schools.put(brown, primarySchool);
-        schools.put(white, technicalSchool);
+        schools.put(Szuster, highSchool);
+        schools.put(Malicka, primarySchool);
+        schools.put(Biajko, technicalSchool);
 
         for (Map.Entry<Principal, School> entry : schools.entrySet()) {
             System.out.println("Dyrektor: " + entry.getKey()
