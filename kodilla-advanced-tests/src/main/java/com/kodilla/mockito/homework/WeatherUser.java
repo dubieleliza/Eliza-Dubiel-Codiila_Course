@@ -27,3 +27,4 @@ public class WeatherUser {
         return Objects.hash(id);
     }
 }
+// komentarz do edycji

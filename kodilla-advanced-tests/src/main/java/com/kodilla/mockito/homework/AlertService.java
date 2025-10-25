@@ -66,3 +66,4 @@ public class AlertService {
         return subscribersByLocation.size();
     }
 }
+
