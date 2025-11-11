@@ -6,3 +6,4 @@ include 'kodilla-intro:kodilla-collections:src:main:java:com:kodilla-collections
 include 'kodilla-stream'
 include 'kodilla-advanced-tests'
 include 'kodilla-spring-basic'
+include 'kodilla-rest-api'
