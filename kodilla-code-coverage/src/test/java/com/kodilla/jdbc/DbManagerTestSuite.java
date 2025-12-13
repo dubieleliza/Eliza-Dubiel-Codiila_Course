@@ -55,4 +55,4 @@ class DbManagerTestSuite {
         statement.close();
     }
 }
-// komentarz do pusha  1233
+// kom123
