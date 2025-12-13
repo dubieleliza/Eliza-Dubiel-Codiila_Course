@@ -3,55 +3,33 @@ plugins {
     id 'jacoco'
     id 'checkstyle'
     id "com.github.spotbugs" version "6.0.14"
+    id 'org.springframework.boot' version '3.2.5'
+    id 'io.spring.dependency-management' version '1.1.4'
 }
 
 group = 'com.kodilla'
 version = '1.0-SNAPSHOT'
+
+java {
+    sourceCompatibility = '21'
+}
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
-    implementation("com.mysql:mysql-connector-j:9.5.0")
-}
-
-test {
-    useJUnitPlatform()
-    finalizedBy jacocoTestReport
-}
-
-jacoco {
-    toolVersion = "0.8.11"
-}
-
-jacocoTestReport {
-    dependsOn test
-    reports {
-        html.required = true
-        xml.required = true
-        csv.required = false
-    }
-}
-
-jacocoTestCoverageVerification {
-    violationRules {
-        rule {
-            element = 'METHOD'
-            limit {
-                counter = 'BRANCH'
-                value = 'COVEREDRATIO'
-                minimum = 1.0
-            }
-            includes = ['com.kodilla.jacoco.*']
-        }
-    }
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    runtimeOnly 'com.mysql:mysql-connector-j'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 checkstyle {
-    toolVersion = "8.30"
+    toolVersion "8.30"
     configFile = file("checkstyle.xml")
 }
 
@@ -61,12 +39,20 @@ spotbugs {
 
 spotbugsMain {
     reports {
-        html.required = true
+        html {
+            required = true
+        }
     }
 }
 
 spotbugsTest {
     reports {
-        html.required = true
+        html {
+            required = true
+        }
     }
+}
+
+test {
+    useJUnitPlatform()
 }

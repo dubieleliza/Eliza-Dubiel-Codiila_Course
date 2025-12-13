@@ -1,2 +1,0 @@
-C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\main\com\kodilla\jacoco\Year.class
-C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\main\com\kodilla\Main.class
