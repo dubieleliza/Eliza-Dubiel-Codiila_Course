@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.hibernate.task.homework.TaskListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-13T16:21:29" hostname="ELIZA" time="1.41">
+<testsuite name="com.kodilla.hibernate.task.homework.TaskListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-13T16:31:35" hostname="ELIZA" time="1.508">
   <properties/>
-  <testcase name="testFindByListName()" classname="com.kodilla.hibernate.task.homework.TaskListTest" time="1.41"/>
-  <system-out><![CDATA[17:21:19.763 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.kodilla.hibernate.task.homework.TaskListTest]: TaskListTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:21:20.190 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.kodilla.CodeCoverageApplication for test class com.kodilla.hibernate.task.homework.TaskListTest
+  <testcase name="testFindByListName()" classname="com.kodilla.hibernate.task.homework.TaskListTest" time="1.508"/>
+  <system-out><![CDATA[17:31:24.966 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.kodilla.hibernate.task.homework.TaskListTest]: TaskListTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:31:25.338 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.kodilla.CodeCoverageApplication for test class com.kodilla.hibernate.task.homework.TaskListTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,25 +13,22 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.5)
 
-2025-12-13T17:21:21.537+01:00  INFO 17140 --- [    Test worker] c.k.h.task.homework.TaskListTest         : Starting TaskListTest using Java 21.0.7 with PID 17140 (started by lenovo in C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage)
-2025-12-13T17:21:21.542+01:00  INFO 17140 --- [    Test worker] c.k.h.task.homework.TaskListTest         : No active profile set, falling back to 1 default profile: "default"
-2025-12-13T17:21:22.797+01:00  INFO 17140 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-13T17:21:22.963+01:00  INFO 17140 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132 ms. Found 2 JPA repository interfaces.
-2025-12-13T17:21:23.996+01:00  INFO 17140 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-13T17:21:24.231+01:00  INFO 17140 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2025-12-13T17:21:24.357+01:00  INFO 17140 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-13T17:21:25.203+01:00  INFO 17140 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-13T17:21:25.298+01:00  INFO 17140 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-13T17:21:25.840+01:00  INFO 17140 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32317a37
-2025-12-13T17:21:25.847+01:00  INFO 17140 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-13T17:21:26.016+01:00  WARN 17140 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-13T17:21:26.022+01:00  WARN 17140 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-12-13T17:21:28.702+01:00  INFO 17140 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-Hibernate: create table tasklists (id integer not null, description varchar(255), listname varchar(255) not null, primary key (id)) engine=InnoDB
-Hibernate: create table tasklists_seq (next_val bigint) engine=InnoDB
-Hibernate: insert into tasklists_seq values ( 1 )
-2025-12-13T17:21:28.903+01:00  INFO 17140 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-13T17:21:29.888+01:00  INFO 17140 --- [    Test worker] c.k.h.task.homework.TaskListTest         : Started TaskListTest in 9.157 seconds (process running for 12.935)
+2025-12-13T17:31:26.748+01:00  INFO 4532 --- [    Test worker] c.k.h.task.homework.TaskListTest         : Starting TaskListTest using Java 21.0.7 with PID 4532 (started by lenovo in C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage)
+2025-12-13T17:31:26.748+01:00  INFO 4532 --- [    Test worker] c.k.h.task.homework.TaskListTest         : No active profile set, falling back to 1 default profile: "default"
+2025-12-13T17:31:28.273+01:00  INFO 4532 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-13T17:31:28.410+01:00  INFO 4532 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 2 JPA repository interfaces.
+2025-12-13T17:31:29.768+01:00  INFO 4532 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-13T17:31:29.996+01:00  INFO 4532 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-12-13T17:31:30.113+01:00  INFO 4532 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-13T17:31:31.002+01:00  INFO 4532 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-13T17:31:31.153+01:00  INFO 4532 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-13T17:31:31.714+01:00  INFO 4532 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2086dfb8
+2025-12-13T17:31:31.730+01:00  INFO 4532 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-13T17:31:31.899+01:00  WARN 4532 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-13T17:31:31.899+01:00  WARN 4532 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-13T17:31:34.340+01:00  INFO 4532 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-13T17:31:34.435+01:00  INFO 4532 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-13T17:31:35.387+01:00  INFO 4532 --- [    Test worker] c.k.h.task.homework.TaskListTest         : Started TaskListTest in 9.447 seconds (process running for 13.097)
 Hibernate: select next_val as id_val from tasklists_seq for update
 Hibernate: update tasklists_seq set next_val= ? where next_val=?
 Hibernate: insert into tasklists (description,listname,id) values (?,?,?)

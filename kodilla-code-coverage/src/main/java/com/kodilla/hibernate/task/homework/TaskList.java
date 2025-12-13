@@ -6,8 +6,7 @@ import jakarta.validation.constraints.NotNull;
 @Entity
 @Table(name = "TASKLISTS")
 public class TaskList {
-
-    private Integer id;
+    private int id;
     private String listName;
     private String description;
 
@@ -23,7 +22,7 @@ public class TaskList {
     @GeneratedValue
     @NotNull
     @Column(name = "ID", unique = true)
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
@@ -38,7 +37,7 @@ public class TaskList {
         return description;
     }
 
-    private void setId(Integer id) {
+    private void setId(int id) {
         this.id = id;
     }
 
@@ -50,4 +49,3 @@ public class TaskList {
         this.description = description;
     }
 }
-//komentarz do pusha
