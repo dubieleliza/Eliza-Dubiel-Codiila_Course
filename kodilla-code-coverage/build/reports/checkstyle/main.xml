@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.30">
+<file name="C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\src\main\java\com\kodilla\jacoco\Year.java">
+</file>
+<file name="C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\src\main\java\com\kodilla\Main.java">
+<error line="7" severity="warning" message="Line is longer than 100 characters (found 103)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="12" severity="warning" message="Line is longer than 100 characters (found 159)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="13" severity="warning" message="Line is longer than 100 characters (found 108)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+</checkstyle>
