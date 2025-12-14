@@ -27,4 +27,4 @@ public class StorePage {
         return results.size();
     }
 }
-//komentarzgvvvvvvvv
+//komentarzgvvvvvvvveeeee
