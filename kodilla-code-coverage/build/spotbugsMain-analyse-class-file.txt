@@ -1,0 +1,12 @@
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\main\com\kodilla\CodeCoverageApplication.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\main\com\kodilla\hibernate\manytomany\Company.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\main\com\kodilla\hibernate\manytomany\CompanyRepository.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\main\com\kodilla\hibernate\manytomany\Employee.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\main\com\kodilla\hibernate\manytomany\EmployeeRepository.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\main\com\kodilla\hibernate\task\homework\repository\TaskListRepositor.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\main\com\kodilla\hibernate\task\homework\repository\TaskListRepository.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\main\com\kodilla\hibernate\task\homework\TaskFinancialDetails.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\main\com\kodilla\hibernate\task\homework\TaskList.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\main\com\kodilla\hibernate\task\Task.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\main\com\kodilla\jacoco\Year.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\main\com\kodilla\jdbc\DbManager.class

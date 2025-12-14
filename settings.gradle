@@ -1,3 +1,4 @@
 rootProject.name = 'MainExtended.java'
 
 include 'kodilla-code-coverage'
+include 'KodillaStore'

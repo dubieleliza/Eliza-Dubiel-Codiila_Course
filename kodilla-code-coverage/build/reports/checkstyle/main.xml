@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.30">
+<file name="C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\src\main\java\com\kodilla\CodeCoverageApplication.java">
+</file>
+<file name="C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\src\main\java\com\kodilla\hibernate\manytomany\Company.java">
+</file>
+<file name="C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\src\main\java\com\kodilla\hibernate\manytomany\CompanyRepository.java">
+</file>
+<file name="C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\src\main\java\com\kodilla\hibernate\manytomany\Employee.java">
+<error line="48" severity="warning" message="Line is longer than 100 characters (found 104)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\src\main\java\com\kodilla\hibernate\manytomany\EmployeeRepository.java">
+</file>
+<file name="C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\src\main\java\com\kodilla\hibernate\task\homework\repository\TaskListRepository.java">
+</file>
+<file name="C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\src\main\java\com\kodilla\hibernate\task\homework\TaskFinancialDetails.java">
+</file>
+<file name="C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\src\main\java\com\kodilla\hibernate\task\homework\TaskList.java">
+</file>
+<file name="C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\src\main\java\com\kodilla\hibernate\task\repository\TaskListRepositor.java">
+</file>
+<file name="C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\src\main\java\com\kodilla\hibernate\task\Task.java">
+</file>
+<file name="C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\src\main\java\com\kodilla\jacoco\Year.java">
+</file>
+<file name="C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\src\main\java\com\kodilla\jdbc\DbManager.java">
+</file>
+</checkstyle>

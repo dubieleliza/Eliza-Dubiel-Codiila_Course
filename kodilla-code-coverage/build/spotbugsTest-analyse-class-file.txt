@@ -1,0 +1,6 @@
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\test\com\kodilla\CodeCoverageApplicationTest.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\test\com\kodilla\hibernate\manytomany\EmployeeCompanyTest.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\test\com\kodilla\hibernate\task\homework\TaskListTest.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\test\com\kodilla\hibernate\task\repository\TaskTest.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\test\com\kodilla\jacoco\YearTest.class
+C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage\build\classes\java\test\com\kodilla\jdbc\DbManagerTestSuite.class

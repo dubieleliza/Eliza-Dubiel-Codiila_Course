@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/KodillaStore" />
             <option value="$PROJECT_DIR$/kodilla-code-coverage" />
           </set>
         </option>
