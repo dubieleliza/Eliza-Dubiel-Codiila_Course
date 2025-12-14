@@ -51,4 +51,4 @@ class StoreSearchTest {
         }
     }
 }
-//komerntarz
+//komerntarzvvvvv

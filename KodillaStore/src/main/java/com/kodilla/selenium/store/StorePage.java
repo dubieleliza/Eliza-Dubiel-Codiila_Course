@@ -1,4 +1,4 @@
-package com.kodilla.selenium.store;
+vvpackage com.kodilla.selenium.store;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -27,4 +27,4 @@ public class StorePage {
         return results.size();
     }
 }
-//komentarz
+//komentarzgvvvvvvvv
