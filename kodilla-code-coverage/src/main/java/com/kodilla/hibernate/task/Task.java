@@ -1,7 +1,10 @@
 package com.kodilla.hibernate.task;
 
-import jakarta.persistence.*;
-import jakarta.validation.constraints.NotNull;
+import com.kodilla.hibernate.task.homework.TaskFinancialDetails;
+import com.kodilla.hibernate.task.homework.TaskList;
+
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
 @Entity
@@ -11,6 +14,8 @@ public class Task {
     private String description;
     private LocalDate created;
     private int duration;
+    private TaskFinancialDetails taskFinancialDetails;
+    private TaskList taskList;
 
     public Task() {
     }
@@ -45,6 +50,19 @@ public class Task {
         return duration;
     }
 
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinColumn(name = "TASKS_FINANCIALS_ID")
+    public TaskFinancialDetails getTaskFinancialDetails() {
+        return taskFinancialDetails;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "TASKLIST_ID")
+    public TaskList getTaskList() {
+        return taskList;
+    }
+
+    // ----------------- Settery -----------------
     private void setId(int id) {
         this.id = id;
     }
@@ -59,5 +77,13 @@ public class Task {
 
     private void setDuration(int duration) {
         this.duration = duration;
+    }
+
+    public void setTaskFinancialDetails(TaskFinancialDetails taskFinancialDetails) {
+        this.taskFinancialDetails = taskFinancialDetails;
+    }
+
+    public void setTaskList(TaskList taskList) {
+        this.taskList = taskList;
     }
 }

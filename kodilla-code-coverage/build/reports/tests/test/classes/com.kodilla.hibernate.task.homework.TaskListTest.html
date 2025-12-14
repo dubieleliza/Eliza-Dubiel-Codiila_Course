@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1.508s</div>
+<div class="counter">1.143s</div>
 <p>duration</p>
 </div>
 </td>
@@ -66,9 +66,6 @@
 <li>
 <a href="#tab1">Standard output</a>
 </li>
-<li>
-<a href="#tab2">Standard error</a>
-</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -82,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">testFindByListName()</td>
-<td class="success">1.508s</td>
+<td class="success">1.143s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -90,49 +87,19 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>17:31:24.966 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.kodilla.hibernate.task.homework.TaskListTest]: TaskListTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:31:25.338 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.kodilla.CodeCoverageApplication for test class com.kodilla.hibernate.task.homework.TaskListTest
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::                (v3.2.5)
-
-2025-12-13T17:31:26.748+01:00  INFO 4532 --- [    Test worker] c.k.h.task.homework.TaskListTest         : Starting TaskListTest using Java 21.0.7 with PID 4532 (started by lenovo in C:\Users\lenovo\IdeaProjects\MainExtended.java\kodilla-code-coverage)
-2025-12-13T17:31:26.748+01:00  INFO 4532 --- [    Test worker] c.k.h.task.homework.TaskListTest         : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2025-12-13T17:31:28.273+01:00  INFO 4532 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-13T17:31:28.410+01:00  INFO 4532 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 2 JPA repository interfaces.
-2025-12-13T17:31:29.768+01:00  INFO 4532 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-13T17:31:29.996+01:00  INFO 4532 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2025-12-13T17:31:30.113+01:00  INFO 4532 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-13T17:31:31.002+01:00  INFO 4532 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-13T17:31:31.153+01:00  INFO 4532 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-13T17:31:31.714+01:00  INFO 4532 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2086dfb8
-2025-12-13T17:31:31.730+01:00  INFO 4532 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-13T17:31:31.899+01:00  WARN 4532 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-13T17:31:31.899+01:00  WARN 4532 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-12-13T17:31:34.340+01:00  INFO 4532 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-13T17:31:34.435+01:00  INFO 4532 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-13T17:31:35.387+01:00  INFO 4532 --- [    Test worker] c.k.h.task.homework.TaskListTest         : Started TaskListTest in 9.447 seconds (process running for 13.097)
-Hibernate: select next_val as id_val from tasklists_seq for update
-Hibernate: update tasklists_seq set next_val= ? where next_val=?
-Hibernate: insert into tasklists (description,listname,id) values (?,?,?)
-Hibernate: select tl1_0.id,tl1_0.description,tl1_0.listname from tasklists tl1_0 where tl1_0.listname=?
-Hibernate: select tl1_0.id,tl1_0.description,tl1_0.listname from tasklists tl1_0 where tl1_0.id=?
+<pre>2025-12-14 11:11:18.547  INFO 15452 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kodilla.hibernate.task.homework.TaskListTest], using SpringBootContextLoader
+2025-12-14 11:11:18.549  INFO 15452 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.kodilla.hibernate.task.homework.TaskListTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-12-14 11:11:18.551  INFO 15452 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.kodilla.hibernate.task.homework.TaskListTest]: TaskListTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-14 11:11:18.589  INFO 15452 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.kodilla.CodeCoverageApplication for test class com.kodilla.hibernate.task.homework.TaskListTest
+2025-12-14 11:11:18.596  INFO 15452 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-12-14 11:11:18.599  INFO 15452 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@72e1aff2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4fc8989c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@32d6ef01, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2c9e982a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@537f2c74, org.springframework.test.context.transaction.TransactionalTestExecutionListener@58f842ff, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5dd30006, org.springframework.test.context.event.EventPublishingTestExecutionListener@5d48c5e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2fe20c1c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@35974ca5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7001a921, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@51966d03, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6eab09c1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@61d682d5]
+Hibernate: select next_val as id_val from hibernate_sequence for update
+Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+Hibernate: insert into tasklists (description, listname, id) values (?, ?, ?)
+Hibernate: select tasklist0_.id as id1_4_, tasklist0_.description as descript2_4_, tasklist0_.listname as listname3_4_ from tasklists tasklist0_ where tasklist0_.listname=?
+Hibernate: select tasklist0_.id as id1_4_0_, tasklist0_.description as descript2_4_0_, tasklist0_.listname as listname3_4_0_ from tasklists tasklist0_ where tasklist0_.id=?
+Hibernate: select tasks0_.tasklist_id as tasklist6_3_0_, tasks0_.id as id1_3_0_, tasks0_.id as id1_3_1_, tasks0_.created as created2_3_1_, tasks0_.description as descript3_3_1_, tasks0_.duration as duration4_3_1_, tasks0_.tasks_financials_id as tasks_fi5_3_1_, tasks0_.tasklist_id as tasklist6_3_1_, taskfinanc1_.id as id1_5_2_, taskfinanc1_.paid as paid2_5_2_, taskfinanc1_.price as price3_5_2_ from projekty tasks0_ left outer join tasks_financials taskfinanc1_ on tasks0_.tasks_financials_id=taskfinanc1_.id where tasks0_.tasklist_id=?
 Hibernate: delete from tasklists where id=?
-</pre>
-</span>
-</div>
-<div id="tab2" class="tab">
-<h2>Standard error</h2>
-<span class="code">
-<pre>WARNING: A Java agent has been loaded dynamically (C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.13\979ce25f7d3096a2e82214ba7dc972a05ce7a171\byte-buddy-agent-1.14.13.jar)
-WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
-WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
-WARNING: Dynamic loading of agents will be disallowed by default in a future release
 </pre>
 </span>
 </div>
@@ -144,7 +111,7 @@ WARNING: Dynamic loading of agents will be disallowed by default in a future rel
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.2</a> at 13 gru 2025, 17:31:37</p>
+<a href="http://www.gradle.org">Gradle 8.2</a> at 14 gru 2025, 11:11:20</p>
 </div>
 </div>
 </body>
